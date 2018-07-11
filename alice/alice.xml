@@ -1,5 +1,9 @@
 <context>
 
+	<input pattern="*">
+	  <output value="Например привет"/>
+	</input>
+
     <input pattern="* Прочти текст *">
         <var name="tts" value="javascript: true"/>
         <output value="Ну пока, незнакомец!" if="empty($UserName)"/>
