@@ -9,4 +9,8 @@
         <output value="Ну пока, незнакомец!" if="empty($UserName)"/>
     </input>
 
+	<input pattern="* пока *">
+		<var name="end_session" value="javascript: true"/>
+	<output value="Пока"/>	
+	
 </context>
