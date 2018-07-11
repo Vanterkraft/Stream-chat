@@ -24,6 +24,8 @@
 
     <input pattern="* пока *">
         <var name="end_session" value="javascript: true"/>
+    <input pattern="* Прочти текст *">
+        <var name="tts" value="javascript: true"/>
         <output value="Ну пока, незнакомец!" if="empty($UserName)"/>
         <output value="Пока-пока, $UserName!"/>
     </input>
